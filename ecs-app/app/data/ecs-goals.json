@@ -1,0 +1,42 @@
+[
+  {
+    "Goal_ID": "G001",
+    "Skill_Area": "Reading",
+    "Grade_Band": "6-8",
+    "Category": "Academic",
+    "Goal_Text": "Student will identify the main idea and two supporting details in grade-level text with 80% accuracy across three trials.",
+    "Measurement_Method": "Teacher-created comprehension probes"
+  },
+  {
+    "Goal_ID": "G002",
+    "Skill_Area": "Writing",
+    "Grade_Band": "6-8",
+    "Category": "Academic",
+    "Goal_Text": "Student will write a five-sentence paragraph including topic sentence, three details, and conclusion with minimal prompts.",
+    "Measurement_Method": "Writing rubric"
+  },
+  {
+    "Goal_ID": "G003",
+    "Skill_Area": "Math",
+    "Grade_Band": "6-8",
+    "Category": "Academic",
+    "Goal_Text": "Student will solve multi-step equations with 80% accuracy across three consecutive assessments.",
+    "Measurement_Method": "Teacher-created math probes"
+  },
+  {
+    "Goal_ID": "G004",
+    "Skill_Area": "Behavior",
+    "Grade_Band": "6-12",
+    "Category": "Behavior",
+    "Goal_Text": "Student will remain on-task during independent work for 15 minutes with no more than one prompt.",
+    "Measurement_Method": "Behavior observation log"
+  },
+  {
+    "Goal_ID": "G005",
+    "Skill_Area": "Executive Function",
+    "Grade_Band": "6-12",
+    "Category": "Executive Function",
+    "Goal_Text": "Student will use a planner to record assignments and due dates with 90% consistency across four weeks.",
+    "Measurement_Method": "Planner checks"
+  }
+]
