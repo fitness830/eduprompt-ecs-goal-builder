@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import NavBar from "../components/NavBar";
 
 export default function ProgressPage() {
   const [studentCode, setStudentCode] = useState("ID-001");
@@ -53,6 +54,8 @@ export default function ProgressPage() {
         fontFamily: "system-ui",
       }}
     >
+      <NavBar />
+
       <h1 style={{ fontSize: "32px", fontWeight: "bold" }}>
         Progress Monitoring
       </h1>

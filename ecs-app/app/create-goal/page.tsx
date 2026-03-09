@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import NavBar from "../components/NavBar";
 
 export default function CreateGoalPage() {
   const [skillArea, setSkillArea] = useState("Reading");
@@ -54,6 +55,8 @@ export default function CreateGoalPage() {
         fontFamily: "system-ui",
       }}
     >
+      <NavBar />
+
       <h1 style={{ fontSize: "32px", fontWeight: "bold" }}>Create Goal</h1>
 
       <p style={{ marginBottom: "24px", color: "#555" }}>
@@ -171,6 +174,11 @@ export default function CreateGoalPage() {
             marginBottom: "16px",
           }}
         />
+
+        <p style={{ marginBottom: "12px", color: "#555", fontSize: "14px" }}>
+          Copy this goal and paste it directly into your IEP software
+          (GO-IEP, Infinite Campus, Frontline, or PowerSchool).
+        </p>
 
         <button onClick={copyGoal} style={buttonStyle}>
           Copy Generated Goal
