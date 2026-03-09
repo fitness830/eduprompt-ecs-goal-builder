@@ -5,7 +5,6 @@ export default function NavBar() {
     <nav
       style={{
         display: "flex",
-        flexWrap: "wrap",
         gap: "16px",
         alignItems: "center",
         padding: "16px 0 24px 0",
@@ -14,38 +13,15 @@ export default function NavBar() {
         fontFamily: "system-ui",
       }}
     >
-      <Link
-        href="/"
-        style={{
-          textDecoration: "none",
-          fontWeight: 700,
-          color: "#111827",
-          marginRight: "8px",
-        }}
-      >
+      <Link href="/" style={{ fontWeight: "bold", textDecoration: "none" }}>
         EduPrompt ECS Beta
       </Link>
 
-      <Link
-        href="/library"
-        style={{ textDecoration: "none", color: "#2563eb" }}
-      >
-        Goal Library
-      </Link>
+      <Link href="/library">Goal Library</Link>
 
-      <Link
-        href="/create-goal"
-        style={{ textDecoration: "none", color: "#2563eb" }}
-      >
-        Create Goal
-      </Link>
+      <Link href="/create-goal">Create Goal</Link>
 
-      <Link
-        href="/progress"
-        style={{ textDecoration: "none", color: "#2563eb" }}
-      >
-        Progress Monitor
-      </Link>
+      <Link href="/progress">Progress Monitor</Link>
     </nav>
   );
 }
