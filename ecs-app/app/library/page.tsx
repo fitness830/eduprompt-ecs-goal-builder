@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import goals from "../data/ecs-goals.json";
-import NavBar from "../components/NavBar";
+import NavBar from "../component/NavBar";
 
 type GoalRow = {
   Goal_ID: string;

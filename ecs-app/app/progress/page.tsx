@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import NavBar from "../components/NavBar";
+import NavBar from "../component/NavBar";
 
 export default function ProgressPage() {
   const [studentCode, setStudentCode] = useState("ID-001");

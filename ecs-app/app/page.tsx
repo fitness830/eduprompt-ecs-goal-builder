@@ -1,5 +1,5 @@
-
 import Link from "next/link";
+import NavBar from "./component/NavBar";
 
 export default function HomePage() {
   return (
@@ -7,7 +7,7 @@ export default function HomePage() {
       style={{
         minHeight: "100vh",
         background: "#ffffff",
-        padding: "60px 20px",
+        padding: "40px 20px",
         fontFamily: "system-ui",
       }}
     >
@@ -17,6 +17,8 @@ export default function HomePage() {
           margin: "auto",
         }}
       >
+        <NavBar />
+
         <h1
           style={{
             fontSize: "36px",
@@ -56,7 +58,7 @@ export default function HomePage() {
                 Goal Library
               </h2>
               <p style={{ marginTop: "8px", color: "#666" }}>
-                Browse ready-to-use ECS goals for grades 6-12.
+                Browse ready-to-use ECS goals for grades 6–12.
               </p>
             </div>
           </Link>
@@ -96,6 +98,47 @@ export default function HomePage() {
               </p>
             </div>
           </Link>
+        </div>
+
+        <div
+          style={{
+            marginTop: "32px",
+            padding: "20px",
+            border: "1px solid #ddd",
+            borderRadius: "12px",
+            background: "#f9fafb",
+          }}
+        >
+          <h3
+            style={{
+              fontSize: "20px",
+              fontWeight: "bold",
+              marginBottom: "8px",
+            }}
+          >
+            Private Beta Feedback
+          </h3>
+
+          <p style={{ color: "#555", marginBottom: "12px" }}>
+            This beta is being tested by a small group of teachers. Please share
+            your feedback after using the tool.
+          </p>
+
+          <a
+            href="PASTE-YOUR-GOOGLE-FORM-LINK-HERE"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              display: "inline-block",
+              padding: "10px 16px",
+              borderRadius: "8px",
+              background: "#2563eb",
+              color: "white",
+              textDecoration: "none",
+            }}
+          >
+            Give Beta Feedback
+          </a>
         </div>
       </section>
     </main>

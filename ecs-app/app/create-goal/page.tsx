@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import NavBar from "../components/NavBar";
+import NavBar from "../component/NavBar";
 
 export default function CreateGoalPage() {
   const [skillArea, setSkillArea] = useState("Reading");
